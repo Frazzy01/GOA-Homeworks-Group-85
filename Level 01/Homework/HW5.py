@@ -1,0 +1,6 @@
+print("=== MENU ===")
+print("Shaurma - 5 Lari")
+print("Khachapuri - 7 Lari")
+print("Lobiani - 4 Lari")
+print("Mtsvadi - 6 Lari")
+print("Khinkali - 8 Lari")
