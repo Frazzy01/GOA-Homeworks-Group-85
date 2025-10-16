@@ -1,0 +1,11 @@
+name = input("Enter your name: ")
+surname = input("Enter your surname: ")
+age = str(input("Enter your age: "))
+birth = str(input("Enter your birth: "))
+
+print("#####################")
+print("Name: " + name)
+print("Surname: " + surname)
+print("Age: " + age)
+print("Birth: " + birth)
+print("#####################")
