@@ -1,0 +1,10 @@
+product1 = input("First product: ")
+product2 = input("Second product: ")
+product3 = input("Third product: ")
+product4 = input("Fourth product: ")
+
+print("List:")
+print("1. " + product1)
+print("2. " + product2)
+print("3. " + product3)
+print("4. " + product4)
