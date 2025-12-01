@@ -1,0 +1,1 @@
+my_list = ["apple", "banana", "hello", "python", "world"]

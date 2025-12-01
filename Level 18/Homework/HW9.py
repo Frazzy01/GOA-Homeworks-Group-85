@@ -1,0 +1,1 @@
+bool_list = [True, False, True, True, False]

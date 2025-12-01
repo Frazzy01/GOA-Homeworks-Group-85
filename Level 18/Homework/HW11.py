@@ -1,0 +1,1 @@
+mixed_list = [25, 3.14, "hello", True, [1, 2, 3], {"a": 1}, (5, 6), None]
