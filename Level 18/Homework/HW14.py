@@ -1,5 +1,5 @@
-my_list = ["phyton", "programireba", "W3Schools"]
+mylist = ["apple", "banana", "cherry"]
 
-print(my_list[0])
-print(my_list[1]) 
-print(my_list[2])
+print("elementi 0:", mylist[0])
+print("elementi 1:", mylist[1])
+print("elementi 2:", mylist[2])
