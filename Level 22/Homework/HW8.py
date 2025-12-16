@@ -6,6 +6,6 @@ letters = ["a", "b", "c"]
 
 inp = input("Enter the letter:")
 
-letters[0] = inp
+letters[1] = inp
 
 print(letters)
