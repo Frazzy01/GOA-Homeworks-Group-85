@@ -3,8 +3,8 @@
 # შენი დავალებაა რომ ტერმინალში გამოიტანო სიის თითუეული ელემენტი ცალ ცალკე ,გამოიყენე for და while ციკლები 
 
 names = ["Nika", "Giorgi", "Ana", "Luka", "Mari"]
-i = 0
+i=0
 
-while i < len(names):
+while i<5:
     print(names[i])
-    i += 1
+    i=i+1
