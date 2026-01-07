@@ -1,0 +1,8 @@
+p {
+    color: blue;
+    background-color: blueviolet;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    border: 25px solid green;
+    text-align: left;
+}
