@@ -1,0 +1,12 @@
+# 3) მომხმარებელს შეაყვანინე პაროლი. 
+# თუ პაროლი მეტია ან ტოლია 8 სიმბოლოზე → "პაროლი საკმარისად ძლიერია", 
+# თუ ნაკლებია → "პაროლი სუსტია", გამოიყენე while,
+# თუ მომხმარებელი სუსტ პაროლს შემოიყვანს რომ მომხმარებელმა ისევ შეიყვანოს ძლიერი პაროლი.
+
+password = input("Enter password: ")
+
+while len(password) < 8:
+    print("Password is easy. try again.")
+    password = input("Enter password: ")
+
+print("Password is good.")
