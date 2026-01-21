@@ -5,17 +5,14 @@
 # დაპრინტეთ საბოლოო სია, გამოიყენეთ while ციკლი.
 
 text = "GOaLORiEnteDAcaDeMy"
-
-my_list = []
+result_list = []
 
 i = 0
-
 while i < len(text):
-    char = text[i]
-    if char.islower():
-        my_list.append(char.upper())
-    elif char.isupper():
-        my_list.append(char.lower())
+    if text[i] == text[i].upper():
+        result_list.append(text[i].lower())
+    else:
+        result_list.append(text[i].upper())
     i += 1
 
-print(my_list)
+print(result_list)
