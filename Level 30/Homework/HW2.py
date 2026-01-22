@@ -11,11 +11,11 @@ words = ["NIKA", "Goga", "luka", "TAMAR", "levan", "Mari", "tornike"]
 i = 0
 
 while i < len(words):
-    word = words[i]
-    if word != word.lower():
-        words.pop(i)
+    if words[i] == words[i].lower():
+        words[i] = words[i].upper()
+        i += 1
     else:
-        words[i] = word.upper()
-        i += 1 
+        words.pop(i)
+
 
 print(words)
