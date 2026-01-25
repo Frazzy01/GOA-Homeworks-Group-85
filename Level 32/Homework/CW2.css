@@ -1,0 +1,8 @@
+#div {
+    background-color: lightblue; 
+    color: darkblue;          
+    width: 300px;              
+    height: 150px;              
+    border: 2px solid blue;    
+    text-align: center;         
+}

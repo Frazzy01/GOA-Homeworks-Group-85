@@ -1,0 +1,14 @@
+p.common {
+    color: red;    
+    font-size: 20px;
+}
+
+h3.common {
+    color: blue;            
+    background-color: yellow; 
+}
+
+button.common {
+    color: green; 
+    font-size: 40px;
+}

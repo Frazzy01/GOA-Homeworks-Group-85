@@ -1,0 +1,29 @@
+.group1 {
+    color: white;
+    background-color: darkblue; 
+}
+
+.item6 {
+    color: red;
+    font-weight: bold;
+}
+
+.item7 {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.item8 {
+    color: orange;
+    font-size: 20px;
+}
+
+.item9 {
+    color: purple;
+    background-color: lightgray;
+}
+
+.item10 {
+    color: brown;
+    font-size: 20px;
+}

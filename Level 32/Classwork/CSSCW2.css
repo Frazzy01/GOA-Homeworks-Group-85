@@ -1,0 +1,22 @@
+.border {
+  border: 2px solid darkred;
+}
+
+.group1 {
+  color: red;
+  font-size: 20px;
+  background-color: purple;
+}
+
+.group2 {
+  color: blue;
+  font-size: 50px;
+  background-color: yellow;
+}
+
+.group3 {
+  color: pink;
+  font-size: 30px;
+  background-color: green;
+}
+

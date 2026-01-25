@@ -1,0 +1,24 @@
+#car1 {
+    color: red;
+    font-size: 20px;
+}
+
+#car2 {
+    color: blue;
+    background-color: aquamarine;
+}
+
+#car3 {
+    color: green;
+    font-size: 20px;
+}
+
+#car4 {
+    color: purple;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#car5 {
+    color: orange;
+    border: 2px solid red;
+}
