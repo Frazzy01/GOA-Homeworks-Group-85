@@ -1,0 +1,15 @@
+#headding {
+    color: darkblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.paragh {
+    color: blueviolet;
+    font-size: 16px;
+}
+
+ul {
+    background-color: darkgoldenrod;
+    color: darkgreen;
+}
