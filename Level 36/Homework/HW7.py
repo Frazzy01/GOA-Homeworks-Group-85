@@ -1,7 +1,6 @@
 # 7) შექმენი ფუქნცია რომელიც მომხმარებელს შემოაყვანინებს რაღაც რიცხვს და დააბრუნებს სიტყვას ეს რიცხვი დადებითია უარყოფითია თუ ნულია
 
-def numbernumber():
-    number = float(input("Enter number: "))
+def numbernumber(number):
     if number > 0:
         return "dadebitiaaa"
     elif number < 0:
@@ -9,4 +8,4 @@ def numbernumber():
     else:
         return "zero"
 
-print(numbernumber())
+print(numbernumber(float(input("Enter number: "))))
