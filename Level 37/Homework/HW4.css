@@ -1,0 +1,19 @@
+#firstdiv {
+    width: 200px;
+    height: 200px;  
+    background-color: rgb(255, 0, 0);
+}
+
+
+#seconddiv {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 0);
+}
+
+
+#thirddiv {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 255);
+}

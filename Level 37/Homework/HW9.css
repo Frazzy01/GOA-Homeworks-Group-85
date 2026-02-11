@@ -1,0 +1,9 @@
+.parent {
+    width: 50%;
+    height: 400px;
+    background-color: red;
+}
+
+.parent img {
+    height: 40%;
+}
