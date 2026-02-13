@@ -1,7 +1,7 @@
 .parent {
     width: 50%;
     height: 400px;
-    background-color: red;
+    background-color: rgb(255, 0, 0);
 }
 
 .parent img {
