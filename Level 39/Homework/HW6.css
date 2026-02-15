@@ -1,0 +1,29 @@
+#t {
+    text-transform: capitalize;
+    text-shadow: 2px 2px 2px ;
+}
+
+#g {
+    color: grey;
+    text-transform: capitalize;
+    text-shadow: 1px -2px 1px;
+}
+
+
+#c {
+    color: rgb(255, 0, 247);
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px blue;
+}
+
+
+#h {
+    color: lime;
+    text-shadow: 0px 0px 5px;
+    text-transform: capitalize;
+}
+
+
+#te {
+    text-shadow: 1px 1px 2px lime;
+}

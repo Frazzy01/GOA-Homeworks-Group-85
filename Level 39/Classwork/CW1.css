@@ -1,0 +1,11 @@
+#up {
+    text-decoration: overline;
+}
+
+#center {
+    text-decoration: line-through;
+}
+
+#under {
+    text-decoration: underline;
+}
