@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Orbitron:wght@400..900&display=swap');
+
+h3 {
+    font-family: "Orbitron", sans-serif;
+}
+
+p {
+    font-family: "Caveat Brush", cursive;
+}
