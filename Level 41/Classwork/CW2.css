@@ -1,0 +1,24 @@
+.first {
+    color: green;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.first:hover {
+    color: red;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.second {
+    color: purple;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.second:active {
+    color: yellow;
+    font-size: 44px;
+    font-weight: 900;
+    box-shadow: 0 0 15px blue;
+}
