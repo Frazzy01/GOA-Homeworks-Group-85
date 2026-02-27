@@ -1,0 +1,19 @@
+ol.zero {
+    list-style: decimal-leading-zero; 
+}
+
+ol.decimal {
+    list-style: decimal;
+}
+
+  ol.georgian {
+    list-style: georgian; 
+  }
+
+  ol.romauli {
+    list-style: upper-roman;
+  }
+
+  ol.lower-roman {
+    list-style: lower-greek;
+  }

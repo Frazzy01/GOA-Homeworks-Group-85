@@ -1,0 +1,11 @@
+.yes{
+    list-style: url(check_16dp_75FB4C_FILL0_wght400_GRAD0_opsz20.png);
+}
+
+.no{
+    list-style: url(close_16dp_EA3323_FILL0_wght400_GRAD0_opsz20.png);
+}
+
+.square{
+    list-style: url(square_16dp_75FB4C_FILL1_wght400_GRAD0_opsz20.png);
+}

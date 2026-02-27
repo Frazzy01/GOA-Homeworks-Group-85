@@ -1,0 +1,37 @@
+    body {
+        background-color: white;
+        font-family: sans-serif
+    }
+
+    .leaderboard {
+        width: 500px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px black;
+        background: white;
+    }
+
+    .leaderboard table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .leaderboard thead {
+        background-color: #0e8269;
+        color: white;
+    }
+
+    .leaderboard th,
+    .leaderboard td {
+        padding: 14px 16px;
+        text-align: left;
+    }
+
+    .leaderboard tbody tr {
+        border: 1px solid #e0e0e0;
+    }
+
+    .leaderboard tbody tr:nth-child(2) {
+        background-color: whitesmoke;
+        font-weight: bold;
+        color: #0e8269;
+    }

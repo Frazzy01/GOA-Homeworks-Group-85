@@ -1,0 +1,32 @@
+    body {
+        font-family: Arial, sans-serif;
+        background: white;
+    }
+
+    .table-container {
+        width: 700px;
+        border: 2px solid aqua;
+        border-radius: 4px;
+        background: white;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    thead {
+        background-color: aqua;
+        color: black;
+    }
+
+    th, td {
+        padding: 12px 14px;
+        text-align: left;
+        border-right: 1px solid aqua;
+        border-bottom: 1px solid aqua;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: white;
+    }

@@ -1,0 +1,21 @@
+/* :nth-child() gamoiyeneba mashin rodesac gvinda parent anu mshobeli elementshi 
+konkretul rigis child anu shvilis elementi avirchiot.
+is itvlis elementebs zedized, zemodan qvemot*/
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tr:nth-child(3) {
+    background-color: lightblue;
+}
+
+th:nth-child(2){
+    background-color: blue;
+}
+
+th:nth-child(1){
+    background-color: aqua;
+}
+
+
