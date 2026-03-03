@@ -5,14 +5,12 @@
 
     .leaderboard {
         width: 500px;
-        border-radius: 10px;
         box-shadow: 0 4px 12px black;
         background: white;
     }
 
     .leaderboard table {
         width: 100%;
-        border-collapse: collapse;
     }
 
     .leaderboard thead {
