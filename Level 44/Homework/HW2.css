@@ -1,0 +1,33 @@
+body {
+    background: white;
+    font-family: sans-serif;
+    padding: 20px 20px;
+}
+
+label {
+    display: block;
+    color: red;
+    font-size: 22px;
+}
+
+input {
+    display: block;
+    width: 90%;
+    height: 60px;
+    border-radius: 40px;
+    font-size: 20px;
+    padding-left: 25px;
+    outline: none;
+}
+
+input:active{          /* HELLO TEACHER IF U CHECKING THIS I NEED TELL U: aq mindoda davamato :focus magram ar gviswavlia :(*/ 
+    display: block;    /* p.s. :focus aris rodesac awvebi da fokusirdeba mam "block"-ze :Active snairia ra ogond ro daawvebi*/
+    width: 90%;         /* fiqsirdeba da icvlis rasac davawert focuse ¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯*/
+    height: 60px;
+    border-radius: 40px;
+    font-size: 20px;
+    padding-left: 25px;
+    outline: none;
+    background-color: red;
+}
+

@@ -1,0 +1,19 @@
+label {
+    display: block;
+    font-weight: bold;
+    color: aqua;
+    font-size: 20px;
+    margin: 5px;
+    width: 100%;
+}
+
+input {
+    display: block;
+    width: 600px; 
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+    border: 1px solid whitesmoke;
+    background: white;
+    box-shadow: 0 3px 5px black;
+}
