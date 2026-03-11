@@ -1,0 +1,9 @@
+.input{
+  width: 250px;
+  height: 40px;
+  background-color: lightblue;
+  border-top: 4px solid red;
+  border-right: 4px dashed green;
+  border-bottom: 4px dotted blue;
+  border-left: 4px double orange;
+}
