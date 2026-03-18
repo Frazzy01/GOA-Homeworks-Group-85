@@ -1,0 +1,15 @@
+.container {
+  display: flex; 
+  background-color: white ;
+  padding: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  color: white;
+  display: flex;
+}
+
+/* divebi (bloki) avtomatiurad dalagda ert xazze (horizontal) */

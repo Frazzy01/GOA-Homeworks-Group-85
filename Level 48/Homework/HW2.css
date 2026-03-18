@@ -1,0 +1,18 @@
+.container {
+  display: flex; 
+  background-color: white ;
+  padding: 10px;
+  /* flex-direction: row; */
+  flex-direction: column;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  color: white;
+  display: flex;
+}
+
+/* row aketebs ise rom divebi horizontalurad iyos ganlagebuli (ert xazze) */
+/* column aketeb ise rom divebi vertikalurad iyos ganlagebuli */
