@@ -1,0 +1,22 @@
+/* justify-content — gamoiyeneba flex-shi X gerdze (horizontalurad) elementebis ganlagebistvis */
+
+/* flex-start — elementebi iwyoba marcxena maxres (default) */
+/* justify-content: flex-start; */
+
+/* flex-end — elementetbi gadadis marjvena mxares */
+/* justify-content: flex-end; */
+
+/* center — elementebi ganlagdeba centrshi */
+/* justify-content: center; */
+
+/* space-between — pirveli elementi marcxniv, bolo marjvniv, xolo mat shoris mandzili tanabrad nawildeba */
+/* justify-content: space-between; */
+
+/* space-around — titoeul elements aqvs sivrce garshemo, magram kideebtan (edges) sivrce ufro pataraa */
+/* justify-content: space-around; */
+
+/* space-evenly — yvela dashoreba ertnairia (elementebis shorisac da kideebtanac) */
+/* justify-content: space-evenly; */
+
+/* gap — adgens fiqsirebul dashorebs elemtebs shoris */
+/* gap: 20px; */

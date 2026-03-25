@@ -1,0 +1,42 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 25px ;
+    border-radius: 20px;
+    background-color: purple;
+}
+
+.WWW {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px ;
+    padding: 20px;
+    background-color: purple;
+    border-radius: 20px;
+
+}
+
+.LLL {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px ;
+    padding: 20px ;
+    background-color: purple;
+    border-radius: 20px;
+}
+
+.item {
+    width: 150px;
+    height: 70px;
+    background: orange;
+    border-radius: 12px;
+}
+
+.small{
+    width: 100px;
+    height: 70px;
+}

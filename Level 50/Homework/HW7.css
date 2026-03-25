@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    width: 350px;
+    background-color: whitesmoke;
+    margin-bottom: 30px;
+    border: 2px dashed gray;
+    padding: 10px;
+}
+
+.item {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nowrap {
+    flex-wrap: nowrap; 
+}
+
+.wrap {
+    flex-wrap: wrap; 
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse; 
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #2c3e50;
+}
+
+/* elementebi ar gadavlen axal xazze, tundac sivrce sakmarisi ar iyos. pasuxismgebelia xazis shenarchunebaze ert adgilze. */
+
+/* pasuxismgebelia shredis gadatanaze, rata ar dairgves dizaini. */
+
+/* pasuxismgebelia rigebis mimartulebis kontrolze. */
