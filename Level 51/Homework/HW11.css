@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  width: 400px;
+  background: lightgray;
+}
+
+.item {
+  flex-basis: 200px;
+  height: 60px;
+  background: aquamarine;
+  margin: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second {
+  flex-shrink: 0;
+}

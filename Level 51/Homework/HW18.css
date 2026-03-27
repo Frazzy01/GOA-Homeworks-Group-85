@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: gray;
+  color: white;
+}
+
+.logo {
+  flex: 0 0 80px;
+  text-align: center;
+}
+
+.menu {
+  flex: 1 1 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.profile {
+  flex: 0 0 80px;
+  text-align: center;
+}

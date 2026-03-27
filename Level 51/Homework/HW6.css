@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: gray;
+  color: white;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.btn {
+  padding: 8px 15px;
+  background: orange;
+  border: none;
+}

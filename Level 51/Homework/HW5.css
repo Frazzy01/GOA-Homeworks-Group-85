@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  width: 600px;
+  background: gray;
+}
+
+.item {
+  width: 100px;
+  height: 60px;
+  background: aqua;
+  margin: 5px;
+}
+
+.grow {
+  flex-grow: 1;
+}

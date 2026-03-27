@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1 0 150px;
+  height: 60px;
+  background: aquamarine;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

@@ -1,0 +1,17 @@
+/* flex-shrink aris Flex-is kutvnileba, romelic gansasgravs,
+   ramndenad unda "sheikumshos" elementi mashin,
+   roca konteinershi sakmarisi addgili ar aris.
+
+   anu, tu elementebi jamshi ufro didia vidre konteineri,
+   flex-shrink wyvets romeli elementi ramdenad shemcirdeba.
+
+   mnishvnelobebi:
+   0  - elementi ar shemcirdeba (inarchunebs zomas)
+   1  - elementi shemcirdeba (default)
+   2, 3, ... - rac ufro didi ricxvia, mit ufro metad shemcirdeba sxvebtan shedarebit
+
+   gansxvaveba mnishvelobebis shoris:
+   - flex-shrink: 0 → elementi ar ikumsheba saertod
+   - flex-shrink: 1 → elementi normalurad ikumsheba
+   - flex-shrink: 2+ → elementi ufro swrafad/metad ikumsheba vidre sxvebi
+*/

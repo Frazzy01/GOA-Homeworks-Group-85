@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  width: 600px;
+  height: 60px;
+  background: gray;
+  border: 2px solid red;
+}
+
+.qwerty {
+  flex: 0 0 200px;
+  background: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.uiop {
+  flex: 1 0 0;
+  background: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  background: gray;
+}
+
+.item {
+  width: 60px;
+  height: 60px;
+  background: purple;
+  margin: 5px;
+}
+
+.first {
+  align-self: flex-end;
+}
+
+.second {
+  align-self: flex-start;
+}
+
+.third {
+  align-self: center;
+}
+

@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+  background: lightgray;
+}
+
+.item {
+  flex-basis: 300px;
+  flex-shrink: 0;
+  height: 60px;
+  background: purple;
+  margin: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

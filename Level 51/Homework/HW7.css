@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  height: 200px;
+}
+
+.item {
+  flex: 1;
+  background: gray;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.item:hover {
+  background: orange;
+}
+
+.special:hover {
+  flex-grow: 3;
+}

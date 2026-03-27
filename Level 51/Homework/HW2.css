@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  height: 300px;
+  align-items: center;
+  background: gray;
+}
+
+.item {
+  width: 60px;
+  height: 60px;
+  background: blue;
+  margin: 5px;
+}
+
+.special {
+  align-self: flex-start;
+}

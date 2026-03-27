@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  width: 300px;
+  background: grey;
+}
+
+.item {
+  flex-basis: 150px;
+  height: 60px;
+  background: tomato;
+  margin: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first {
+  flex-shrink: 1;
+}
+
+.second {
+  flex-shrink: 2;
+}
+
+.third {
+  flex-shrink: 3;
+}

@@ -1,0 +1,23 @@
+.parent {
+    width: 600px;
+    height: 600px;
+    border: 2px solid red;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center
+}
+
+.child {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}
+
+.start {
+    align-self: flex-start;
+}
+
+.end {
+    align-self: flex-end;
+}
