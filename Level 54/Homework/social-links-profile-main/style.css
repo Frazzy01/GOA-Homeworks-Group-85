@@ -21,7 +21,7 @@ body{
     height: 420px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
-    padding: 20px;
+    padding: 27px;
 
     display: flex;
     flex-direction: column;
@@ -40,14 +40,14 @@ img{
 
 .heading{
     color: hsl(0, 0%, 100%);
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 400;
 
 }
 
 .UK{
     color: hsl(75, 94%, 57%);
-    font-size: 12px;
+    font-size: 11px;
     margin-bottom: 12px;
 }
 
