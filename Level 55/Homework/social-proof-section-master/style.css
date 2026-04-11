@@ -9,6 +9,7 @@
 body {
     height: 100vh;
     font-family: "League Spartan", sans-serif;
+    overflow: hidden;
 }
 
 .container {
@@ -23,7 +24,7 @@ body {
   margin-top: 80px;
 }
 
-.main-heading {
+.h1 {
   color: hsl(300, 43%, 22%);
   font-size: 56px;
   font-weight: 700;
@@ -31,7 +32,7 @@ body {
   width: 60%;
 }
 
-.main-heading-p {
+.p1 {
   color: hsl(303, 10%, 53%);
   font-size: 19px;
   font-weight: 500;
@@ -40,7 +41,7 @@ body {
   padding-top: 32px;
 }
 
-.review {
+.star {
   background-color: hsl(300, 24%, 96%);
   border-radius: 8px;
   display: flex;
@@ -52,28 +53,28 @@ body {
   height: 56px;
 }
 
-.five-star-mention-p {
+.star-p {
   color: hsl(300, 43%, 22%);
   font-size: 17px;
   font-weight: 700;
 }
 
-#review-two {
+#star-second {
   margin-left: 32px;
 }
 
-#review-three {
+#star-third {
   margin-left: 64px;
 }
 
-#review-cards {
+#cards {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 64px;
 }
 
-.review-card {
+.card {
   border-radius: 8px;
   background: hsl(300, 43%, 22%);
   width: 350px;
@@ -81,7 +82,7 @@ body {
   padding: 24px;
 }
 
-.avatar-container {
+.avatardiv {
   display: flex;
   align-items: center;
 }
@@ -93,20 +94,20 @@ body {
   margin-right: 16px;
 }
 
-.avatar-name {
+.avatarname {
   color: hsl(0, 0%, 100%);
   font-size: 17px;
   font-weight: 700;
 }
 
-.verified-buyer-text {
+.verifiedbuyer {
   color: hsl(333, 80%, 67%);
   font-size: 17px;
   font-weight: 400;
   padding-top: 4px;
 }
 
-.review-card-text {
+.cardtxt {
   color: hsl(0, 0%, 100%);
   font-size: 17px;
   font-weight: 500;
@@ -114,11 +115,11 @@ body {
   padding-top: 32px;
 }
 
-#review-card-2 {
+#cardsecond {
   margin-top: 32px;
 
 }
 
-#review-card-3 {
+#cardthird {
   margin-top: 64px;
 }
