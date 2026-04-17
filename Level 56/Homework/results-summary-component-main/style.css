@@ -75,14 +75,26 @@ body{
     padding:30px;
 }
 
+
+h3{
+    margin-bottom: 15px;
+}
+
 .item{
     display:flex;
     justify-content:space-between;
+    align-items: center;
     padding:10px;
     border-radius:10px;
     margin-bottom:10px;
     font-size:14px;
 }
+
+.werty{
+    display: flex;
+    align-items: center;
+}
+
 
 img{
     margin-left: 5px;
