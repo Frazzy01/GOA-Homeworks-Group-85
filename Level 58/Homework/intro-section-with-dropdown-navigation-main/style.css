@@ -61,6 +61,10 @@ nav li img {
   color: hsl(0, 0%, 41%);
 }
 
+.RR:hover {
+  background-color: hsl(0, 0%, 41%);
+}
+
 .RR {
   border: 1px solid hsl(0, 0%, 8%);
   background-color: hsl(0, 0%, 98%);
