@@ -14,7 +14,7 @@ body {
 }
 
 #body {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
   padding: 20px 40px;
 }
@@ -96,7 +96,7 @@ h1 {
 }
 
 .learn {
-  background: hsl(0, 0%, 8%);
+  background-color: hsl(0, 0%, 8%);
   color: hsl(0, 0%, 98%);
   padding: 14px 28px;
   border: none;
@@ -106,7 +106,7 @@ h1 {
 }
 
 .learn:hover {
-  background: hsl(0, 0%, 41%);
+  background-color: hsl(0, 0%, 41%);
 }
 
 .imgdiv {
