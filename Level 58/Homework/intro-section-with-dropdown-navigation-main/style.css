@@ -7,7 +7,7 @@
 }
 
 body {
-  background: hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 98%);
   color: hsl(0, 0%, 8%);
   font-family:  "Epilogue", sans-serif;
   overflow: hidden;
@@ -56,14 +56,14 @@ nav li img {
 }
 
 .LL {
-  background: hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 98%);
   border: none;
   color: hsl(0, 0%, 41%);
 }
 
 .RR {
   border: 1px solid hsl(0, 0%, 8%);
-  background: hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 98%);
   padding: 8px 18px;
   border-radius: 10px;
 }
