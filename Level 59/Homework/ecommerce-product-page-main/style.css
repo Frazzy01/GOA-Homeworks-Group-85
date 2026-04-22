@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 8%);
+  overflow: hidden;
+}
+
+#body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#headerdiv {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.icon {
+  width: 125px;
+}
+
+nav ol {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav li {
+  font-size: 16px;
+  color: hsl(0, 0%, 41%);
+}
+
+#buttondiv {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.LL {
+  width: 20px;
+}
+
+.RR {
+  width: 40px;
+}
+
+.gallery {
+  width: 50%;
+  margin-top: 60px;
+}
+
+.main-img {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.thumbs {
+  display: flex;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.thumbs img {
+  width: 80px;
+  border-radius: 10px;
+
+}
+
+.idk{
+    opacity: 20%;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.info {
+  width: 400px;
+}
+
+.brand {
+  color: hsl(219, 9%, 45%);
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.info h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.desc {
+  color: hsl(219, 9%, 45%);
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.current {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.discount {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.old-price {
+  color: hsl(219, 9%, 45%);
+  text-decoration: line-through;
+  margin: 10px 0 25px;
+}
+
+
+.actions {
+  display: flex;
+  gap: 20px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  background-color:  hsl(223, 64%, 98%);
+  border-radius: 10px;
+  padding: 10px 15px;
+  gap: 15px;
+}
+
+.counter button {
+  border: none;
+  background: none;
+  font-size: 18px;
+}
+
+.btn {
+  width: 100%;
+  background-color: hsl(26, 100%, 55%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.btn:active{
+    background-color: hsla(25, 100%, 50%, 0.462);
+}
+
+
+.mp{
+   font-weight: bold;
+   color: hsl(26, 100%, 55%); 
+}

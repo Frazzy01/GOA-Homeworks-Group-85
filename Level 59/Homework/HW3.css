@@ -1,0 +1,16 @@
+/* static - chveulebrivi, ar reagirebs left/right/top */
+.static {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+/* relative - gadaadgildeba tavisi adgilidan */
+.relative {
+  width: 100px;
+  height: 100px;
+  background: green;
+
+  position: relative;
+  left: -40px; /* marcxniv*/
+}

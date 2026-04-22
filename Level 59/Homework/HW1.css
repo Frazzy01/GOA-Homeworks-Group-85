@@ -1,0 +1,28 @@
+/*position
+mokled ro vtqvat gansazgravs elementis mdebareobas gverdze */
+
+/*relative
+rodesac elements aqvs miniwebuli position:relative; 
+es elementi modzraobaas daiwyebs im adgilidan sadac is chven ganvalaget
+aseve rodesac viyeneb
+relative-s raime elementze wvdomas vigebt top,right, bottom da Left kutvnilebebze* /
+
+
+
+/*absolute
+rodesac elements mivaniwebt
+position:absolute; am dros am stilis mqone elementi amovardeba elementa 
+ganlagebidan (am elementma aricis rom sxva elementebi arseboben) am stilis gamoyenebisas 
+wvdoma gvedzleba top,right,bottom da Left kutvnilebebze */
+
+
+/* static rodesac elementebs ar aqvt miniwebuli chvens mier raime pozicia */
+
+
+/*
+position gamoyenebis dros elementis gadaadgileba shemidzlia 4 shesadzlo kutvnilebit
+--
+1)top -- chamoyavs elementi zemodan qvemot 
+2)bottom -- aitans elementebs qvemodan zemot 
+3) right -- gawevs elements marjvnidan marcxvniv 
+4)left -- gaitans elementebs marcxnidan marjniv */

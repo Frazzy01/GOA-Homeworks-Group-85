@@ -1,0 +1,19 @@
+.parent {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.red { background: red; }
+.green { 
+  background: green;
+
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+.blue { background: blue; }
