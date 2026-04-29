@@ -1,0 +1,42 @@
+body {
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.square {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+}
+
+.black {
+  background-color: #1e1e1e;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.green {
+  background-color: #2e8b57;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.blue {
+  background-color: #2f6fe4;
+  top: 40px;
+  left: 40px;
+  z-index: 3;
+}

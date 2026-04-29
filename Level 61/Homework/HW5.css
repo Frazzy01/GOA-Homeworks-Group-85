@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.sidebar {
+    width: 200px;
+    height: 200px;
+    background: #1e0000;
+    color: white;
+
+    position: sticky;
+    top: 20px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main p {
+    height: 1200px;
+}

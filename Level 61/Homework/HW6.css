@@ -1,0 +1,11 @@
+.section {
+    height: 600px;
+    padding: 20px;
+}
+
+.section h2 {
+    position: sticky;
+    top: 0;
+    background-color: #4a90a4;
+    padding: 10px;
+}

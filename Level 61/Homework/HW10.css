@@ -1,0 +1,39 @@
+body {
+    background-color: #ddd;
+    margin: 0;
+    height: 200vh;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.first {
+    background-color: deeppink;
+    top: 50px;
+    left: 100px;
+    z-index: 1;
+}
+
+.second {
+    background-color: #2aa3c7;
+    top: 90px;
+    left: 160px;
+    z-index: 2;
+    opacity: 0.9;
+}
+
+.third {
+    background-color: green;
+    top: 150px;
+    left: 130px;
+    z-index: 0;
+}
