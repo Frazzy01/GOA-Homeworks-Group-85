@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  background-color: dodgerblue;
+  border-radius: 50%;
+
+  transition: 0.4s;
+}
+
+.circle:hover {
+  transform: scale(1.1) translate(30px, 30px) rotate(15deg);
+}

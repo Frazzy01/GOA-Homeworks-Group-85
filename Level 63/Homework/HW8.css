@@ -1,0 +1,18 @@
+.main-box {
+  width: 700px;
+  height: 400px;
+  background: url("png-clipart-green-tree-illustration-natural-resource-conservation-nature-natural-environment-nature-essay-grass-thumbnail.png") center / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  background: url("car.jpg") center / cover no-repeat;
+  border: 5px solid white;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}

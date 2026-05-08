@@ -1,0 +1,10 @@
+.box {
+  width: 400px;
+  height: 250px;
+  background-image: url("emoji-pixel-illustration-size-100x100-260nw-2518068461.webp");
+  background-position: left top;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+  background: url("emoji-pixel-illustration-size-100x100-260nw-2518068461.webp") left top / 100px no-repeat;
+}

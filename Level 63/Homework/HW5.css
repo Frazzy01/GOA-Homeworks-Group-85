@@ -1,0 +1,9 @@
+.card {
+  width: 350px;
+  height: 200px;
+  background-image: url("images.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background: url("images.jpg") center / contain no-repeat;
+}

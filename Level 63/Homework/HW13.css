@@ -1,0 +1,11 @@
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.5) rotate(10deg) translateY(-20px);
+}

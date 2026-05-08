@@ -1,0 +1,13 @@
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+
+  transition: 0.5s;
+
+  transform-origin: bottom right;
+}
+
+.box:hover {
+  transform: scale(0.7) translateX(-40px) rotate(-10deg);
+}

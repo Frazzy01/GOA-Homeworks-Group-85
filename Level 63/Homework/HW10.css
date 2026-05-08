@@ -1,0 +1,11 @@
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: tomato;
+
+  transition: 0.4s;
+}
+
+.box:hover {
+  transform: scale(0.7) translateX(-30px) rotate(-10deg);
+}
