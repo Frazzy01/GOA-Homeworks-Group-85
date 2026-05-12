@@ -154,7 +154,6 @@ input:focus {
     border: none;
     border-radius: 8px;
     font-size: 18px;
-    cursor: pointer;
 }
 
 .confirm-btn:hover {
