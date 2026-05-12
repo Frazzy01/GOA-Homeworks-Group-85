@@ -54,18 +54,11 @@ body {
     gap: 15px;
 }
 
-.circle-fill {
-    width: 45px;
-    height: 45px;
-    background: hsl(0, 0%, 100%);
-    border-radius: 50%;
-}
+.circle {
+    width: 84px;
+    height: 47px;
+    background: url(./images/card-logo.svg);
 
-.circle-outline {
-    width: 20px;
-    height: 20px;
-    border: 1px solid hsl(0, 0%, 100%);
-    border-radius: 50%;
 }
 
 .card-number {
