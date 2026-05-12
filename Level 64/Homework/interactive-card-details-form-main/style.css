@@ -124,7 +124,6 @@ input {
     border: 1px solid hsl(270, 3%, 87%);
     border-radius: 8px;
     font-size: 18px;
-    outline: none;
 }
 
 input::placeholder {
