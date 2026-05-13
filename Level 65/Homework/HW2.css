@@ -1,0 +1,18 @@
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    background: royalblue;
+    color: white;
+
+    transition:
+        color 0.2s,
+        border-radius 0.5s,
+        background 0.7s 0.3s;
+}
+
+button:hover {
+    color: yellow;
+    border-radius: 30px;
+    background: crimson;
+}

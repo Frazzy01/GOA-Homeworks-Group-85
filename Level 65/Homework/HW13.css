@@ -1,0 +1,14 @@
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    background: royalblue;
+    color: white;
+
+    transition: transform 0.4s, background 0.4s;
+}
+
+button:active {
+    transform: scale(0.9) rotate(45deg);
+    background: crimson;
+}

@@ -1,0 +1,17 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: steelblue;
+    margin: 50px auto;
+
+    transition:
+        transform 1.5s,
+        border-radius 0.5s,
+        background-color 0.4s;
+}
+
+.box:hover {
+    transform: rotate(360deg);
+    border-radius: 50%;
+    background-color: orange;
+}

@@ -1,0 +1,12 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 50px auto;
+
+    transition: transform 0.4s;
+}
+
+.box:hover {
+    transform: scale(1.2);
+}

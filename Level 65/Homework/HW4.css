@@ -1,0 +1,14 @@
+img {
+    width: 300px;
+
+    transition:
+        opacity 0.5s,
+        scale 0.7s,
+        transform 1.2s 0.4s;
+}
+
+img:hover {
+    opacity: 0.5;
+    scale: 1.1;
+    transform: rotate(15deg);
+}

@@ -1,0 +1,17 @@
+.card {
+    width: 250px;
+    height: 150px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 50px auto;
+
+    transition:
+        transform 0.5s,
+        box-shadow 0.8s;
+}
+
+.card:hover {
+    transform: translateY(-20px) scale(1.1);
+    box-shadow: 0 10px 25px black;
+}

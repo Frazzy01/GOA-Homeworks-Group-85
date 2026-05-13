@@ -1,0 +1,18 @@
+button {
+    padding: 12px 30px;
+    font-size: 18px;
+    border: none;
+    background-color: royalblue;
+    color: white;
+
+    transition:
+        transform 0.3s,
+        box-shadow 0.7s 0.1s,
+        color 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    color: yellow;
+}

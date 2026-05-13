@@ -1,0 +1,11 @@
+img {
+    width: 300px;
+    display: block;
+    margin: 50px auto;
+
+    transition: all 1.5s;
+}
+
+img:hover {
+    transform: scale(1.1) rotate(30deg);
+}

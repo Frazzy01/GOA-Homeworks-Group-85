@@ -1,0 +1,12 @@
+img {
+    width: 300px;
+    display: block;
+    margin: 50px auto;
+
+    transition: all 3s;
+}
+
+img:hover {
+    transform: rotate(15deg);
+    opacity: 0.6;
+}

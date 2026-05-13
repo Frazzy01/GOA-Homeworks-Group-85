@@ -1,0 +1,37 @@
+.card {
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 15px;
+    margin: 50px auto;
+
+    transition:
+        transform 0.5s,
+        box-shadow 1s 0.2s;
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+    transition: transform 0.8s;
+}
+
+.card h2 {
+    transition: color 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card:hover img {
+    transform: rotate(360deg);
+}
+
+.card:hover h2 {
+    color: crimson;
+}

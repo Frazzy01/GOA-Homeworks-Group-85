@@ -1,0 +1,20 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: steelblue;
+
+    transition:
+        background-color 0.3s,
+        transform 1s,
+        width 0.6s,
+        height 0.6s;
+
+    transition-delay: 3s;
+}
+
+.box:hover {
+    background-color: tomato;
+    width: 220px;
+    height: 220px;
+    transform: rotate(360deg);
+}
