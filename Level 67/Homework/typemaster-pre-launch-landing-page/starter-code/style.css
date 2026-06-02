@@ -210,3 +210,15 @@ img {
     line-height: 26px;
     color: #7B8BAD;
 }
+
+body{
+    font-family: "Barlow", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    padding: 0px 165px;
+    background-image: url(./assets/shared/pattern-square.svg),url(./assets/shared/pattern-square.svg);
+    background-repeat: no-repeat;
+    background-position: 1780px 185px, -120px 950px;
+}
