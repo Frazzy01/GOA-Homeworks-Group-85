@@ -1,0 +1,37 @@
+.box{
+    align-items: center;
+    display: flex;
+}
+
+.dot{
+    display: inline-block;
+    font-weight: bolder;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+.f{
+    color: green;
+    animation-name: f;
+}
+
+.s{
+    color: gray;
+    animation-name: s;
+}
+
+@keyframes f {
+  0%   { color: green; transform: scale(0.75);}
+  25%  { color: gray;  transform: scale(1);}
+  50%  { color: aqua;  transform: scale(0.75);}
+  75%  { color: red;  transform: scale(1);}
+  100% { color: green; transform: scale(0.75); }
+}
+
+@keyframes s {
+  0%   { color: gray;  transform: scale(0.75);}
+  25%  { color: aqua;  transform: scale(1);}
+  50%  { color: red;  transform: scale(0.75);}
+  75%  { color: green;  transform: scale(1);}
+  100% { color: gray; transform: scale(0.75); }
+}

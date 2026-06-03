@@ -1,0 +1,42 @@
+.box{
+    align-items: center;
+    display: flex;
+}
+
+.dot{
+    display: inline-block;
+    font-weight: bolder;
+    animation-name: qwerty;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 1.5s;
+}
+
+.f{
+    color: red;
+    animation-delay: 0.2s;
+}
+
+.s{
+    color: aqua;
+    animation-delay: 0.4s;
+}
+
+.t{
+    color: yellow;
+    animation-delay: 0.6s;
+}
+
+@keyframes qwerty {
+    0%{
+        transform: translateY(2px);
+    }
+    
+    50%{
+        transform: translateY(-4px);
+    }
+
+    100%{
+        transform: translateY(2px);
+    }
+}

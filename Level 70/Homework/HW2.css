@@ -1,0 +1,14 @@
+.box {
+    width: 20px;
+    height: 20px;
+    background: red;
+    animation-name: qwerty;
+    animation-duration: 1s;  
+    animation-iteration-count: infinite;
+}
+
+@keyframes qwerty {
+    0%   { transform: rotate(45deg) scaleY(1); }
+    50%  { transform: rotate(45deg) scaleY(1.5); }
+    100% { transform: rotate(45deg) scaleY(1); }
+}
