@@ -1,0 +1,38 @@
+.qwerty {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+
+    position: relative;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: 4;
+}
+
+@keyframes move {
+    0% {
+        width: 250px;
+        height: 250px;
+        background-color: red;
+    }
+
+    33% {
+        background-color: yellow;
+        top: 50px;
+    }
+
+    66%{
+        background-color: blue;
+        border-radius: 20px;
+        left: 50px ;
+        transform: rotate(40deg);
+    }
+    
+    100%{
+        background-color: orange;
+        border: solid red;
+        border-radius: 50%;
+
+    }
+}
