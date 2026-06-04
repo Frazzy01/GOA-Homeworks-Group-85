@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    margin-bottom: 80px;
+    margin-top: 80px;
+    width: 119px;
+    height: 28px;
+}
+
+.main{
+    max-width: 540px;
+    padding: 0 24px;
+    margin-bottom: 64px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main h1{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.main p{
+    margin-top: 20px;
+}
+
+.main h1 span{
+    display: block;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn{
+    padding: 16px 40px;
+    border-radius: 29px;
+    border: none;
+    color: white;
+    font-weight: 900;
+}
+
+.btn-blue{
+    background: #4D96A9;
+}
+
+.btn span{
+    color: #8FE3F9;
+}
+
+.btn-pink{
+    background: #855FB1;
+}
+
+.container{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.stepper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.stepper-line{
+    width: 1px;
+    height: 84px;
+    background: #87879D;
+}
+
+.stepper-badge{
+    width: 56px;
+    height: 56px;
+    border: 1px solid #87879D;
+    border-radius: 50%;
+    color: #87879D;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meeting{
+    display: flex;
+    gap: 20px;
+    width: 1110px;
+    height: 242px;
+}
+
+.meeting img{
+    border-radius: 8px;
+}
+
+.main-second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main-second h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.main-second h2{
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: 900;
+    line-height: 26px;
+    color: #4D96A9;
+}
+
+.main-second p{
+    margin-top: 20px;
+}
+
+.main-second h1 span {
+    display: block;
+}
