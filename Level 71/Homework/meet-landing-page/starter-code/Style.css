@@ -14,46 +14,46 @@ body {
     align-items: center;
 }
 
-.logo{
+.logo {
     margin-bottom: 80px;
     margin-top: 80px;
     width: 119px;
     height: 28px;
 }
 
-.main{
+.main {
     max-width: 540px;
     padding: 0 24px;
     margin-bottom: 64px;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.main h1{
+.main h1 {
     font-size: 64px;
     font-weight: 900;
     line-height: 1.1;
 }
 
-.main p{
+.main p {
     margin-top: 20px;
 }
 
-.main h1 span{
+.main h1 span {
     display: block;
 }
 
-.buttons{
+.buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
 }
 
-.btn{
+.btn {
     padding: 16px 40px;
     border-radius: 29px;
     border: none;
@@ -61,40 +61,50 @@ body {
     font-weight: 900;
 }
 
-.btn-blue{
+.btn-blue {
     background: #4D96A9;
+    transition: background-color 0.2s ease;
 }
 
-.btn span{
+.btn-blue:hover {
+    background: #71C0D4;
+}
+
+.btn span {
     color: #8FE3F9;
 }
 
-.btn-pink{
+.btn-pink:hover{
+    color: #B18BDD;
+}
+
+.btn-pink {
+    transition: background-color 0.2s ease;
     background: #855FB1;
 }
 
-.container{
+.container {
     width: 100%;
     align-items: center;
     justify-content: space-between;
     display: flex;
-    
+
 }
 
-.stepper{
+.stepper {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 64px;
 }
 
-.stepper-line{
+.stepper-line {
     width: 1px;
     height: 84px;
     background: #87879D;
 }
 
-.stepper-badge{
+.stepper-badge {
     width: 56px;
     height: 56px;
     border: 1px solid #87879D;
@@ -106,18 +116,18 @@ body {
     align-items: center;
 }
 
-.meeting{
+.meeting {
     display: flex;
     gap: 20px;
     width: 1110px;
     height: 242px;
 }
 
-.meeting img{
+.meeting img {
     border-radius: 8px;
 }
 
-.main-second{
+.main-second {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,12 +136,12 @@ body {
     margin-top: 80px;
 }
 
-.main-second h1{
+.main-second h1 {
     font-size: 40px;
     font-weight: 900;
 }
 
-.main-second h2{
+.main-second h2 {
     font-size: 16px;
     letter-spacing: 4px;
     font-weight: 900;
@@ -139,10 +149,100 @@ body {
     color: #4D96A9;
 }
 
-.main-second p{
+.main-second p {
     margin-top: 20px;
 }
 
 .main-second h1 span {
     display: block;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    align-self: stretch;
+    max-width: none;
+    min-height: 250px;
+    margin: 0 auto;
+    border-radius: 0;
+    overflow: hidden;
+    background-image: url('./assets/desktop/image-footer.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(77, 150, 169, 0.85);
+    z-index: 1;
+}
+
+.footer-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1110px;
+    margin: 0 auto;
+    width: 100%;
+    height: 250px;
+    padding: 60px 40px;
+    box-sizing: border-box;
+}
+
+
+.footer-title {
+    color: #ffffff;
+    font-family: 'Red Hat Display', sans-serif;
+
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 900;
+    margin: 0;
+
+    max-width: 350px;
+}
+
+.footer-text {
+    color: #ffffff;
+    font-family: 'Red Hat Display', sans-serif;
+
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin: 0;
+
+    max-width: 360px;
+}
+
+.footer-btn {
+    background-color: #b179b0;
+    color: #ffffff;
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+
+
+    padding: 16px 32px;
+    border-radius: 28px;
+    border: none;
+
+    transition: background-color 0.2s ease;
+}
+
+.footer-btn:hover {
+    background-color: #B18BDD;
+}
+
+.stepper-second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
 }
