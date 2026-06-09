@@ -198,7 +198,6 @@ body {
 
 .footer-title {
     color: #ffffff;
-    font-family: 'Red Hat Display', sans-serif;
 
     font-size: 40px;
     line-height: 1.1;
@@ -210,7 +209,6 @@ body {
 
 .footer-text {
     color: #ffffff;
-    font-family: 'Red Hat Display', sans-serif;
 
     font-size: 18px;
     line-height: 1.5;
@@ -223,7 +221,7 @@ body {
 .footer-btn {
     background-color: #b179b0;
     color: #ffffff;
-    font-family: 'Red Hat Display', sans-serif;
+
     text-decoration: none;
     font-weight: 700;
     font-size: 16px;
