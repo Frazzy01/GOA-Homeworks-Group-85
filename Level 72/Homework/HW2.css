@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img{
+    width: 200px;
+}
+
+@keyframes CHEMIGUUULI{
+    0%,100%{
+        width: 200px;
+    }
+
+    30%{
+        width: 225px;
+    }
+
+    70%{
+        width: 250px;
+    }
+
+}
+
+img{
+    animation: CHEMIGUUULI 1s ease-in-out 2s 2 normal forwards;
+}
+

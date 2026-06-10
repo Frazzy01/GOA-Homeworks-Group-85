@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.time {
+    position: relative;
+    border-radius: 50%;
+    border: 20px solid #00cbd6;
+    width: 300px;
+    height: 300px;
+}
+
+.dot {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background: #00cbd6;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+/* Палка стрелки */
+.stick {
+    position: absolute;
+    width: 100px;
+    height: 12px; 
+    background: #00cbd6;
+    border-radius: 6px;
+    
+    top: 50%;
+    left: 50%;
+
+}
