@@ -21,6 +21,38 @@ body {
     height: 28px;
 }
 
+.container {
+    width: 100%;
+    position: relative; /* Дает точку отсчета для absolute */
+    display: flex;
+    justify-content: center; /* Центрирует текстовый блок .main строго посередине */
+    align-items: center;
+    min-height: 360px; /* Высота, чтобы блоки не схлопывались в ноль */
+}
+
+/* 2. Позиционируем только ОБЕРТКИ картинок */
+.icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Идеально ровняет по вертикали */
+}
+
+/* Сдвиг от краев контейнера (в Figma здесь обычно отрицательный отступ) */
+.left {
+    left: -40px; /* Сдвигает левый блок за левый край */
+}
+
+.right {
+    right: -40px; /* Сдвигает правый блок за правый край */
+}
+
+/* 3. Очищаем саму картинку — убираем absolute, фиксируем размер */
+.icon img {
+    display: block;
+    max-width: none; /* Не дает флексу сжимать картинку, она сохранит размер из Figma */
+    height: auto;
+}
+
 .main {
     max-width: 540px;
     padding: 0 24px;
@@ -80,13 +112,6 @@ body {
     background: #855FB1;
 }
 
-.container {
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-
-}
 
 .stepper {
     display: flex;
@@ -107,6 +132,7 @@ body {
     border: 1px solid #87879D;
     border-radius: 50%;
     color: #87879D;
+    background-color: white;
     font-weight: 900;
     display: flex;
     justify-content: center;
@@ -235,9 +261,13 @@ body {
     background-color: #B18BDD;
 }
 
-.stepper-second{
+.stepper-second {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 80px;
+
+    margin-bottom: -28px; 
+    position: relative; 
+    z-index: 3;  
 }
