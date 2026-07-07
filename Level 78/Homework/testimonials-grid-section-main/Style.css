@@ -19,7 +19,7 @@ body {
 .parent {
     display: grid;
     grid-template-columns: repeat(4, 255px);
-    grid-auto-rows: repeat(2, 280px);
+    grid-template-rows: repeat(2, 130px);
     gap: 24px;
     max-width: 1110px;
     width: 100%;
