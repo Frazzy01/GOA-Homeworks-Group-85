@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-color: hsl(0, 0%, 97%) ;
+}
+
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-rows: repeat(6, 140px);
+    gap: 20px;
+    max-width: 1440px;
+    width: 100%;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+/* -------------------------------------------- */  /* 1 DIV*/ 
+
+.post{
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    background-color: hsl(31, 66%, 93%);
+}
+
+.post span{
+    color: hsl(256, 67%, 59%);
+}
+
+.post h1{
+    margin-top: 50px;
+}
+
+.post img{
+    margin-bottom: 80px;
+}
+
+/* -------------------------------------------- */ /* 2 DIV*/ 
+
+.social{
+    background: hsl(256, 67%, 59%);
+    color: white;
+    grid-column: 2 / 4;
+    grid-row: 1 / span 2;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.social img{
+    height: 30px;
+}
+
+.social h1{
+    font-size: 50px;
+}
+
+/* -------------------------------------------- */ /* 3 DIV*/ 
+
+.Schedule{
+    background: hsl(254, 88%, 90%);
+    color: black;
+    grid-column: 4 ;
+    grid-row: 1 / span 4;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.Schedule img{
+    height: 300px;
+    margin-left: 200px;
+}
+
+.Schedule h1{
+    font-size: 50px;
+}
+
+/* -------------------------------------------- */ /* 4 DIV*/ 
+
+.ai{
+    background: hsl(39, 100%, 71%);
+    color: black;
+    grid-column: 1;
+    grid-row: 4  / span 3;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.ai img{
+    height: 240px;
+}
+
+.ai h1{
+    font-size: 40px;
+}
+
+/* -------------------------------------------- */ /* 5 DIV*/ 
+
+
+.platforms{
+    background: white;
+    color: black;
+    grid-column: 2;
+    grid-row: 3  / span 2;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.platforms img{
+    width: 300px;
+    margin-left: 130px;
+}
+
+
+
+/* -------------------------------------------- */ /* 6 DIV*/ 
+
+.calendar{
+    background: hsl(39, 100%, 71%);
+    color: black;
+    grid-column: 3;
+    grid-row: 3  / span 2;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.calendar img{
+    height: 160px;
+
+}
+
+.calendar h1{
+    margin-top: 85px;
+
+}
+
+/* -------------------------------------------- */ /* 7 DIV*/ 
+
+.acc{
+    background: white;
+    color: black;
+    grid-column: 2;
+    grid-row: 5  / span 2;
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.acc img{
+    height: 80px;
+    margin-top: 20px;
+
+}
+
+.acc h1{
+    font-size: 60px;
+}
+
+.acc h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* -------------------------------------------- */ /* 8 DIV*/ 
+
+.followers{
+    background: hsl(256, 67%, 59%);
+    color: white;
+    grid-column: 3 / span 2;
+    grid-row: 5  / span 2;
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.followers img{
+    height: 250px;
+    margin-top: 20px;
+    align-items: start;
+
+}
+
+.followers h1{
+
+}
+
+.followers span{
+
+}
