@@ -233,7 +233,6 @@ body {
 /* -------------------------------------------- */ /* MEDIA MA FRIENDO*/ 
 
 @media (max-width: 1000px) {
-    /* 1. Сбрасываем сетку в одну колонку */
     .parent {
         grid-template-columns: 1fr;
         grid-template-rows: auto; 
@@ -244,7 +243,6 @@ body {
         grid-row: auto;
     }
 
-    /* 2. Уменьшаем гигантские шрифты, чтобы они влезали в экран телефона */
     .social h1 { font-size: 36px; }
     .Schedule h2 { font-size: 28px; }
     .Schedule p { font-size: 18px; }
@@ -252,7 +250,6 @@ body {
     .acc h1 { font-size: 32px; }
     .post h1 { font-size: 28px; }
 
-    /* 3. Убираем фиксированные margin-left, которые выталкивали картинки за экран */
     .Schedule img {
         margin-left: 0;
         height: auto;
@@ -269,7 +266,6 @@ body {
         object-fit: contain;
     }
 
-    /* 4. Корректируем отступы у остальных картинок */
     .post img {
         margin-bottom: 20px;
         margin-top: 10px;
@@ -279,7 +275,6 @@ body {
         margin-top: 20px;
     }
 
-    /* 5. Перестраиваем последнюю карточку в колонку */
     .followers {
         flex-direction: column;
         align-items: flex-start;
