@@ -51,10 +51,12 @@ body {
 
 .post h1{
     margin-top: 50px;
+    font-size: 40px;
 }
 
 .post img{
     margin-bottom: 80px;
+    margin-top: 20px;
 }
 
 /* -------------------------------------------- */ /* 2 DIV*/ 
@@ -75,7 +77,7 @@ body {
 }
 
 .social h1{
-    font-size: 50px;
+    font-size: 70px;
 }
 
 /* -------------------------------------------- */ /* 3 DIV*/ 
@@ -97,8 +99,12 @@ body {
     margin-left: 200px;
 }
 
-.Schedule h1{
-    font-size: 50px;
+.Schedule h2{
+    font-size: 40px;
+}
+
+.Schedule p{
+    font-size: 28px;
 }
 
 /* -------------------------------------------- */ /* 4 DIV*/ 
@@ -119,7 +125,7 @@ body {
 }
 
 .ai h1{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 /* -------------------------------------------- */ /* 5 DIV*/ 
@@ -200,22 +206,87 @@ body {
 
 /* -------------------------------------------- */ /* 8 DIV*/ 
 
-.followers{
+.followers {
     background: hsl(256, 67%, 59%);
     color: white;
     grid-column: 3 / span 2;
-    grid-row: 5  / span 2;
+    grid-row: 5 / span 2;
     text-align: start;
-    justify-content: center;
-    align-items: start;
-    gap: 15px;
+    
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 20px;
     overflow: hidden;
 }
 
-.followers img{
-    height: 250px;
-    margin-top: 20px;
-    align-items: start;
-
+.followers img {
+    height: 100%;
+    margin: 0; 
 }
 
+.followers h1{
+    color: white;
+    font-size: 3rem;
+}
+
+/* -------------------------------------------- */ /* MEDIA MA FRIENDO*/ 
+
+@media (max-width: 1000px) {
+    /* 1. Сбрасываем сетку в одну колонку */
+    .parent {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto; 
+    }
+    
+    .parent .card {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    /* 2. Уменьшаем гигантские шрифты, чтобы они влезали в экран телефона */
+    .social h1 { font-size: 36px; }
+    .Schedule h2 { font-size: 28px; }
+    .Schedule p { font-size: 18px; }
+    .ai h1 { font-size: 28px; }
+    .acc h1 { font-size: 32px; }
+    .post h1 { font-size: 28px; }
+
+    /* 3. Убираем фиксированные margin-left, которые выталкивали картинки за экран */
+    .Schedule img {
+        margin-left: 0;
+        height: auto;
+        max-height: 200px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .platforms img {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+        max-height: 150px;
+        object-fit: contain;
+    }
+
+    /* 4. Корректируем отступы у остальных картинок */
+    .post img {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .calendar h1 {
+        margin-top: 20px;
+    }
+
+    /* 5. Перестраиваем последнюю карточку в колонку */
+    .followers {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .followers img {
+        width: 100%;
+        max-height: 150px;
+    }
+}
