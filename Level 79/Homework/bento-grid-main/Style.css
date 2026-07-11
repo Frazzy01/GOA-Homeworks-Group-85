@@ -255,7 +255,6 @@ body {
         height: auto;
         max-height: 200px;
         width: 100%;
-        object-fit: contain;
     }
 
     .platforms img {
@@ -263,7 +262,6 @@ body {
         width: 100%;
         height: auto;
         max-height: 150px;
-        object-fit: contain;
     }
 
     .post img {
