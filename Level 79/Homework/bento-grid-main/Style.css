@@ -20,7 +20,7 @@ body {
 .parent{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    grid-template-rows: repeat(6, 140px);
+    grid-template-rows: repeat(6, 170px);
     gap: 20px;
     max-width: 1440px;
     width: 100%;
@@ -78,6 +78,10 @@ body {
 
 .social h1{
     font-size: 70px;
+}
+
+.social span{
+    color: hsl(39, 100%, 71%);
 }
 
 /* -------------------------------------------- */ /* 3 DIV*/ 
@@ -144,8 +148,12 @@ body {
 }
 
 .platforms img{
-    width: 300px;
+    width: 400px;
     margin-left: 130px;
+}
+
+.platforms h1{
+    font-size: 40px;
 }
 
 
@@ -165,13 +173,13 @@ body {
 }
 
 .calendar img{
-    height: 160px;
+    height: 200px;
 
 }
 
 .calendar h1{
-    margin-top: 85px;
-
+    margin-top: 90px;
+    font-size: 48px;
 }
 
 /* -------------------------------------------- */ /* 7 DIV*/ 
