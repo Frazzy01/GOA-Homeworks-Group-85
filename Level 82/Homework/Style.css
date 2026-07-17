@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+/* ---------------------------------------------------- HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 24px 120px;
+}
+
+nav {
+    display: flex;
+    gap: 80px;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hamburger {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 2px 5px 15px black;
+}
+
+.thalby {
+    width: 80px;
+    height: 25px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 60px;
+}
+
+/* ---------------------------------------------------- MAIN */
+
+
+/* ---------------------------------------------------- SECTION 1 */
+.hero {
+    background: #F0EFEB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 42px;
+    width: 500px;
+}
+
+.info h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.info span {
+    display: block;
+}
+
+.info p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.info button {
+    width: 130px;
+    height: 36px;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+}
+
+.hero img {
+    width: 40%;
+}
+
+.second-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 26px;
+}
+
+/* ---------------------------------------------------- SECTION 2 */
+
+.guide{
+    width: 600px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 440px;
+    gap: 50px;
+}
+
+.guide-p{
+    font-size: 18px;
+}
+
+.best{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sellers img{
+    width: 310px;
+    height: 420px;
+}
+
+.sellers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 20px;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width:1200px) {
+    .info h1 {
+        font-size: 35px;
+    }
+
+    .info p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:900px) {
+    header {
+        padding: 24px 40px;
+    }
+
+    .hero {
+        padding: 30px 40px;
+    }
+}
+
+
+@media (max-width:750px) {
+    ul {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        width: 30px;
+    }
+
+    #insta {
+        width: 15px;
+    }
+
+    .icon {
+        width: 30px;
+    }
+
+    header {
+        padding: 24px 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .hero img {
+        width: 80%;
+    }
+
+    .info {
+        width: 100%;
+    }
+}
