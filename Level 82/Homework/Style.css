@@ -39,7 +39,7 @@ ul {
     gap: 28px;
     font-size: 16px;
     font-weight: 700;
-    text-shadow: 2px 5px 15px black;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
 }
 
 .thalby {
@@ -141,6 +141,7 @@ ul {
 
     gap: 30px;
     margin: 0 auto;
+
 }
 
 .title {
@@ -152,13 +153,344 @@ ul {
     color: black;
     display: block;
     height: 50px;
+    font-weight: 700;
 }
 
-.best h1{
+.best h1 {
     height: 70px;
 }
 
 /* ---------------------------------------------------- SECTION 3 */
+
+.People {
+    width: 100%;
+    height: 650px;
+    background-color: #CCCCCC4D;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 120px 20px;
+}
+
+.People img {
+    width: 300px;
+    height: 400px;
+}
+
+.People a {
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+
+.WHT {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    font-size: x-large;
+    width: 350px;
+}
+
+.Culture {
+    width: 100%;
+    background-color: #CCCCCC99;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 120px 20px;
+}
+
+.NIGA {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    font-size: x-large;
+    width: 350px;
+}
+
+.Culture img {
+    width: 300px;
+    height: 400px;
+}
+
+.Culture a {
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+
+.Power {
+    width: 100%;
+    background-color: #CCCCCC4D;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 120px 20px;
+}
+
+.Power img {
+    width: 300px;
+    height: 400px;
+}
+
+.Power a {
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+
+/* ---------------------------------------------------- SECTION 4 */
+
+
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 5px;
+}
+
+.aqua {
+    background-color: #21F7EC;
+}
+
+.green {
+    background-color: #33D3BC;
+}
+
+.blue {
+    background-color: #18A5C6;
+}
+
+.orange {
+    background-color: #D38F62;
+}
+
+.red {
+    background-color: #F94C43;
+}
+
+.pink {
+    background-color: #D399FF;
+}
+
+.textt span {
+    display: block;
+    text-align: center;
+}
+
+.textt {
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+}
+
+.titles {
+    text-align: center;
+    font-size: x-large;
+    padding-top: 100px;
+    height: 210px;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.titles span {
+    display: block;
+}
+
+.item {
+    row-gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.BRATHAAAAAA {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 200px);
+    justify-self: center;
+    align-self: center;
+}
+
+/* ---------------------------------------------------- SECTION 5 */
+
+.interviews {
+    width: 100%;
+    height: 850px;
+}
+
+.guide-thalby {
+    justify-self: center;
+    text-align: center;
+
+}
+
+.guide-thalby span {
+    display: block;
+    height: 100px;
+}
+
+
+.PEOPLES {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    justify-content: center;
+    text-align: center;
+}
+
+.people-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.cardss {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 220px;
+}
+
+.quote {
+    width: 350px;
+    font-weight: 700;
+}
+
+.quotet {
+    width: 370px;
+    font-weight: 700;
+}
+
+.author span {
+    display: block;
+}
+
+.author {
+    font-size: large;
+}
+
+.discover {
+    color: black;
+    font-weight: 700;
+}
+
+/* ---------------------------------------------------- SECTION 6 */
+.inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.inputs h1{
+    height: 50px;
+}
+
+.inbox {
+    font-weight: 700;
+    height: 60px;
+}
+
+.inbox span {
+    display: block;
+}
+
+.email {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.row input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 12px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.form button {
+    width: 115px;
+    height: 33px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+}
+
+
+/* ---------------------------------------------------- FOOTER */
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 60px 120px;
+
+}
+
+.iconfooter{
+    display: flex;
+    gap: 30px;
+    padding: 50px 0px;
+}
+
+.information{
+    color: #FFFFFF;
+    font-weight: 200;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    align-content: center;
+
+}
+
+.information div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.email-block {
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+
+/* ---------------------------------------------------- MEDIA */
+
+
+
+
 
 
 
@@ -186,6 +518,20 @@ ul {
         grid-column: span 2;
     }
 
+    .interviews {
+        height: 1650px;
+        padding: 60px 20px;
+    }
+
+    .PEOPLES {
+        grid-template-columns: repeat(auto-fit, 340px);
+        gap: 30px;
+    }
+
+    .quote,
+    .quotet {
+        width: 100%;
+    }
 }
 
 @media (max-width:900px) {
@@ -243,4 +589,121 @@ ul {
     #German {
         grid-column: 1;
     }
+
+    .People {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+        width: 100%;
+    }
+
+    .WHT {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-size: x-large;
+        width: 100%;
+    }
+
+    .Culture {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+    }
+
+    .NIGA {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-size: x-large;
+        width: 100%;
+    }
+
+
+    .Power {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+    }
+
+    .Power img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .Power a {
+        font-size: 18px;
+        color: black;
+        font-weight: 700;
+    }
+
+
+    .BRATHAAAAAA {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(180px, 1fr));
+        grid-template-rows: repeat(2, 200px);
+        justify-self: center;
+        align-self: center;
+    }
+
+    .guide-thalby span {
+        display: inline;
+    }
+
+    .guide-thalby {
+        padding: 20px;
+    }
+
+    .discover {
+        height: 100px;
+    }
+
+    .interviews {
+        height: 2200px;
+        padding: 60px 20px;
+    }
+
+    footer{
+        flex-direction: column;  
+        align-items: center;  
+        text-align: center;
+        height: 100%;
+
+}
+
+.iconfooter{
+    display: flex;
+    gap: 30px;
+    padding: 50px 0px;
+}
+
+.information{
+    color: #FFFFFF;
+    font-weight: 200;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    align-content: end;
+
+}
+
+.information div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.email-block {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 4px
+}
+
+
+
+
 }
