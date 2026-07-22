@@ -524,7 +524,7 @@ footer {
     }
 
     .PEOPLES {
-        grid-template-columns: repeat(auto-fit, 340px);
+        grid-template-columns: repeat(2, 340px);
         gap: 30px;
     }
 
@@ -551,9 +551,11 @@ footer {
         display: none;
     }
 
+
+
     #hamburger {
         display: block;
-        width: 30px;
+        width: 20px;
     }
 
     #insta {
@@ -565,7 +567,7 @@ footer {
     }
 
     header {
-        padding: 24px 20px;
+        padding: 24px 9px;
     }
 
     .hero {
@@ -585,6 +587,13 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
     }
+
+    .sellers img {
+        width: 290px;
+        height: 400px;
+    }
+
+
 
     #German {
         grid-column: 1;
@@ -643,11 +652,13 @@ footer {
 
     .BRATHAAAAAA {
         display: grid;
-        grid-template-columns: repeat(2, minmax(180px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 200px);
         justify-self: center;
         align-self: center;
+        gap: 20px;
     }
+
 
     .guide-thalby span {
         display: inline;
@@ -664,6 +675,35 @@ footer {
     .interviews {
         height: 2200px;
         padding: 60px 20px;
+    }
+
+    .gg {
+        width: 300px;
+        height: 400px;
+    }
+
+    .quote {
+        width: 300px;
+    }
+
+    .PEOPLES {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email {
+        width: 300px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid black;
     }
 
     footer {
@@ -703,7 +743,9 @@ footer {
         gap: 4px
     }
 
-
+    .inbox{
+        height: 100px;
+    }
 
 
 }
