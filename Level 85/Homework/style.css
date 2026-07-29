@@ -138,10 +138,19 @@ ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.lowk {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
 }
 
 .clients p {
-    height: 60px;
     color: #717171;
     text-align: center;
 }
@@ -149,9 +158,8 @@ ul li {
 .clients h1 {
     color: #4D4D4D;
     font-weight: 600;
-    padding: 20px;
+    align-content: center;
 }
-
 
 .icons {
     display: flex;
@@ -168,12 +176,13 @@ ul li {
     display: flex;
     flex-direction: column;
     justify-self: center;
+    justify-content: space-evenly;
     text-align: center;
     width: 480px;
+    height: 200px;
 }
 
 .system h1 {
-    padding: 50px 0px;
     font-size: 33px;
     color: #4D4D4D;
     font-weight: 600;
@@ -183,14 +192,15 @@ ul li {
     color: #717171;
 }
 
+
 .description {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     text-align: center;
-    padding: 20px;
     flex-wrap: wrap;
-    gap: 30px;
+    height: 100%;
+    gap: 50px;
 }
 
 
@@ -218,15 +228,46 @@ ul li {
 .descrip {
     color: #717171;
     height: 70px;
-    
+
 }
 
 
+/* ------------------------------------------- section 4 */
 
+.wid {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
 
+.TEXT {
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
 
+#reddd {
+    height: 400px;
+    align-content: center;
+}
 
+.TEXT h1 {
+    color: #4D4D4D;
+}
 
+.TEXT p {
+    color: #717171;
+}
+
+.TEXT button {
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    background-color: #4CAF4F;
+    color: white;
+}
 
 
 
@@ -252,6 +293,18 @@ ul li {
     .herodiv {
         gap: 20px;
     }
+
+    .wid {
+        height: 600px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .TEXT {
+        gap: 20px;
+    }
+
 
 }
 
@@ -290,27 +343,47 @@ ul li {
     }
 
     .herodiv {
-        width: 100%;
+        width: 90%;
+        height: 370px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+    .herodiv h1 {
+        font-size: 50px;
     }
 
     .icons {
         row-gap: 30px;
     }
+
+    .TEXT {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .TEXT h1 {
+        font-size: 26px;
+    }
+
 }
 
 @media (max-width:610px) {
 
+    .hamburger {
+        width: 35px;
+        height: 35px;
+    }
+
     .herodiv h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .herodiv span {
         display: block;
     }
 
-    .hero {
-        gap: 150px;
-    }
 
     .system h1 {
         font-size: small;
@@ -325,15 +398,8 @@ ul li {
         width: 100%;
     }
 
-    .system h1 {
-        padding: 50px 0px;
-        font-size: 33px;
-        color: #4D4D4D;
-        font-weight: 600;
-    }
-
-    .system p {
-        color: #717171;
+    .clients {
+        height: 100%;
     }
 
     .description {
@@ -346,5 +412,28 @@ ul li {
         row-gap: 60px;
     }
 
+    .system h1 {
+        font-size: 33px;
+        color: #4D4D4D;
+        font-weight: 600;
+    }
+
+    .system p {
+        color: #717171;
+    }
+
+    .wid {
+        height: 600px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 30px 0px;
+
+    }
+
+
+    .TEXT {
+        gap: 30px;
+    }
 
 }
