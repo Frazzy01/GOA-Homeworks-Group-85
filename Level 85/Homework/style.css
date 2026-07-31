@@ -305,7 +305,7 @@ ul li {
     display: grid;
     grid-template-columns: repeat(2, minmax(150px, 1fr));
     gap: 25px;
-    
+
 }
 
 .deleted img {
@@ -320,18 +320,79 @@ ul li {
 
 /* ------------------------------------------- section 6 */
 
-.pana{
+.pana {
     width: 300px;
 }
 
+/* ------------------------------------------- section 7 */
 
 
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 320px;
+    height: 300px;
+    border-radius: 10px;
+}
 
+.tesla {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    background: #F5F7FA;
+    min-height: 350px;
+    max-height: 100%;
+    flex-wrap: wrap;
+}
 
+.Britishdragon {
+    display: flex;
+    flex-direction: column;
+    width: 740px;
+    height: 230px;
+    gap: 20px;
+}
 
+.lorem {
+    color: #717171;
+}
 
+.Britishdragon h2 {
+    color: #4CAF4F;
+}
 
+.boatracing {
+    color: #89939E;
+}
 
+.logo img {
+    width: 40px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #4CAF4F;
+}
+
+.logo a img {
+    width: 25px;
+}
+
+.avtor{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
 
 
@@ -379,7 +440,7 @@ ul li {
         gap: 20px;
     }
 
-    .DDLC{
+    .DDLC {
         padding: 0px 20px;
     }
 
