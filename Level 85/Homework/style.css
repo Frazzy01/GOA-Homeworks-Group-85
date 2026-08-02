@@ -170,7 +170,7 @@ ul li {
     width: 75%;
 }
 
-.icons img{
+.icons img {
     width: 40px;
 }
 
@@ -329,6 +329,232 @@ ul li {
     width: 300px;
 }
 
+/* ------------------------------------------- section 7 */
+
+.TXT {
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.raviiii {
+    background: #F5F7FA;
+}
+
+.txtandicon h2 {
+    color: #4CAF4F;
+}
+
+.txtandicon p {
+    color: #717171;
+}
+
+.avtor p {
+    color: #89939E;
+}
+
+.avtor {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.avtor h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.TESLA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.AUUU {
+    width: 350px;
+}
+
+.txtandicon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 650px;
+}
+
+.logos img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.logos a {
+    color: #4CAF4F;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logos a img {
+    width: 25px;
+    height: 25px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* ------------------------------------------- section 8 */
+
+.marketings {
+    width: 300px;
+}
+
+.newmarketing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.sectionmarketing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.divdivdiv {
+    width: 650px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.divdivdiv h1 {
+    color: #4D4D4D;
+    font-weight: 600;
+}
+
+.divdivdiv p {
+    color: #717171;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+}
+
+.seconddiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 260px;
+    height: 140px;
+    background-color: #F5F7FA;
+    border-radius: 10px;
+    position: relative;
+    bottom: 90px;
+    color: #717171;
+    font-weight: 600;
+    padding: 0px 20px;
+}
+
+.href a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    color: #4CAF4F;
+    font-weight: 600;
+}
+
+.seconddiv img {
+    width: 20px;
+}
+
+.seconddiv {
+    font-size: 16px;
+}
+
+.descriptionss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+/* ------------------------------------------- section 9 */
+
+.libero {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: #F5F7FA;
+}
+
+.libero h1 {
+    font-size: 64px;
+    color: #263238;
+    font-weight: 600;
+}
+
+.libero span {
+    display: block;
+}
+
+.libero button {
+    background: #4CAF4F;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.libero img {
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -388,7 +614,21 @@ ul li {
         padding: 0px 20px;
     }
 
+    .TXT {
+        display: block;
+        height: 100%;
+        justify-items: center;
+        text-align: center;
+    }
 
+    .TESLA {
+        padding: 0px;
+    }
+
+    .txtandicon {
+        width: 100%;
+        padding: 0px 40px;
+    }
 }
 
 @media (max-width:800px) {
@@ -456,6 +696,46 @@ ul li {
         min-height: 300px;
     }
 
+    .txtandicon p {
+        font-size: 12px;
+    }
+
+    .AUUU {
+        width: 300px;
+    }
+
+    .divdivdiv {
+        width: 100%;
+        height: 200px;
+        justify-content: space-evenly;
+    }
+
+    .maindiv {
+        padding: 0px;
+    }
+
+    .libero h1 {
+        font-size: 52px;
+        padding: 0px 60px;
+    }
+
+    .libero span {
+        display: inline;
+    }
+
+    .seconddiv {
+        width: 200px;
+        bottom: 60px;
+    }
+
+    .divdivdiv {
+        height: 260px;
+    }
+
+    .marketings {
+        width: 250px;
+    }
+
 }
 
 @media (max-width:610px) {
@@ -521,6 +801,11 @@ ul li {
 
     .TEXT {
         gap: 30px;
+        padding: 20px;
+    }
+
+    .TXT{
+        height: 100%;
     }
 
     .DDLC {
@@ -539,5 +824,28 @@ ul li {
         gap: 20px;
     }
 
+    .txtandicon {
+        width: 100%;
+        padding: 0px 50px;
+    }
 
+
+    .logos {
+        gap: 30px;
+    }
+
+    .libero {
+        height: 400px;
+    }
+
+
+    .libero h1 {
+        font-size: 42px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .AUUU{
+        width: 250px;
+    }
 }
