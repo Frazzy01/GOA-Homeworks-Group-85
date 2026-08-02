@@ -541,9 +541,11 @@ ul li {
 footer {
     background: #263238;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    height: 300px;
+    min-height: 300px;
+    width: 100%;
+    padding: 0px 80px;
+    justify-content: space-around;
 }
 
 .info {
@@ -584,15 +586,15 @@ footer {
 }
 
 
-.social{
+.social {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    width: 40%;
     justify-content: center;
     gap: 10px;
 }
 
-.iconssss{
+.iconssss {
     display: flex;
     justify-content: space-between;
     width: 200px;
@@ -603,7 +605,42 @@ footer {
     color: #F5F7FA;
 }
 
+form img {
+    width: 15px;
+}
 
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 190px;
+    gap: 20px;
+    position: relative;
+}
+
+.Contact h3 {
+    color: #FFFFFF;
+}
+
+.email {
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: none;
+    width: 215px;
+    background: #ffffff33;
+
+}
+
+form img {
+    position: relative;
+    left: 185px;
+    bottom: 23px;
+}
+
+input::placeholder {
+    color: #D9DBE1;
+
+}
 
 
 
@@ -689,6 +726,24 @@ footer {
         width: 100%;
         padding: 0px 40px;
     }
+
+    footer {
+        flex-direction: column;
+        height: 800px;
+        justify-content: space-evenly;
+    }
+
+    .info {
+        height: 200px;
+        width: 600px;
+    }
+
+    .social {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
 }
 
 @media (max-width:800px) {
@@ -908,4 +963,46 @@ footer {
     .AUUU {
         width: 250px;
     }
+
+
+
+    .info {
+        display: flex;
+        width: 100%;
+        height: 40%;
+        justify-content: space-evenly;
+    }
+
+    footer {
+        padding: 0px 0px;
+        width: 100%;
+        height: 780px;
+        background: #263238;
+    }
+
+
+    .Nexcent {
+        padding: 0px;
+    }
+
+    .iconssss {
+        padding: 0px;
+    }
+
+    .social {
+        height: 200px;
+    }
+
+    .company {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .Contact {
+        display: flex;
+        height: 150px;
+    }
+
+
 }
