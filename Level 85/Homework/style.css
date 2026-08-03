@@ -525,6 +525,7 @@ ul li {
     color: #FFFFFF;
     font-weight: 500;
     padding: 15px 20px;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -642,38 +643,7 @@ input::placeholder {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ------------------------------------------- Media */
 
 
 
@@ -991,6 +961,8 @@ input::placeholder {
 
     .social {
         height: 200px;
+        gap: 10px;
+        justify-content: space-around;
     }
 
     .company {
