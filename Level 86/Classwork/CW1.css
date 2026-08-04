@@ -1,0 +1,16 @@
+:root{
+    --color: white;
+    --fontsize: 32px;
+    --borderadius: 10px;
+    --background: black;
+    --fontweight: 600;
+}
+
+h1{
+    background: var(--background);
+    color: var(--color);
+    font-size: var(--fontsize);
+    border-radius: var(--borderadius);
+    font-weight: var(--fontweight);
+}
+
