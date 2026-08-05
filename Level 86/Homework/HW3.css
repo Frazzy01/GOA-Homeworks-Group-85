@@ -1,0 +1,11 @@
+:root{
+    --btn-color: black;
+    --btn-text: white;
+    --radius: 5px;
+}
+
+button{
+    background: var(--btn-color);
+    color: var(--btn-text);
+    border-radius: var(--radius);
+}
