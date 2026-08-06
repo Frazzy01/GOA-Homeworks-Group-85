@@ -1,0 +1,5 @@
+console.log(6 + 9)
+console.log(1000 - 999)
+console.log(52 * 42)
+console.log(99 / 3)
+console.log(69 % 7)

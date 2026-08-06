@@ -1,0 +1,6 @@
+console.log("      JavaScript      ".trim())
+console.log("      JavaScript      ".startsWith("Java"))
+console.log("      JavaScript      ".slice(0, 10))
+console.log("      JavaScript      ".toUpperCase())
+console.log("      JavaScript      ".length)
+console.log("JA" + "VA")

@@ -1,0 +1,1 @@
+console.log("Programming".slice(0, 4))
