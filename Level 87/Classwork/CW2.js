@@ -1,0 +1,6 @@
+console.log("levan".length)
+console.log("LEVAN".toLowerCase())
+console.log("levan".toUpperCase())
+console.log("levan".startsWith("g"))
+console.log("              levan               ".trim())
+console.log("ჰიდროელექტროსადგური".slice(5, 12))

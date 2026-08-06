@@ -1,0 +1,7 @@
+console.log(6 + 7)
+console.log(1000 - 7)
+console.log(5 * 5)
+console.log(44 / 4)
+console.log(67 % 9)
+console.log("5" + 5)
+console.log("levan " + "beridze")
