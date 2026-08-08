@@ -1,5 +1,3 @@
-let text = "Hello Goga"
-
-text = "Hello Nika"
+let text = "Hello Goga".replace("Goga", "Nika")
 
 console.log(text)
