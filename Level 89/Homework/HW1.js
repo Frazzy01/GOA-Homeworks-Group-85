@@ -1,3 +1,3 @@
-let lol = "I like cats"
+let lol = "I like cats".replace("cats", "dogs")
 
-console.log(lol.replace("cats", "dogs"))
+console.log(lol)
