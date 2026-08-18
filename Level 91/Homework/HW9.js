@@ -2,7 +2,7 @@ let username = "ADMIN_GOGA".toLowerCase()
 let age = 25
 let isActive = true
 
-if(username === ""){
+if(username){
     console.log("No username")
 }else if(username.startsWith("admin") && age >= 18 && !isActive){
     console.log("Admin access")
