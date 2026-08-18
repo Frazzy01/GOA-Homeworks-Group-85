@@ -4,7 +4,7 @@ let isActive = true
 
 if(username === ""){
     console.log("No username")
-}else if(username.startsWith("admin") && age >= 18 && isActive === true){
+}else if(username.startsWith("admin") && age >= 18 && !isActive){
     console.log("Admin access")
 }else if(username.startsWith("user") && age >= 18){
     console.log("User access")
