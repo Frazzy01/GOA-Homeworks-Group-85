@@ -3,7 +3,7 @@ let isStudent = true
 
 if(age < 18){
     console.log("Minor")
-}else if(age >= 18 && isStudent === true){
+}else if(age >= 18 && !isStudent){
     console.log("Adult student")
 }else if(age >= 18 && isStudent === false){
     console.log("Adult")
