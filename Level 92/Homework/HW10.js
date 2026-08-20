@@ -4,19 +4,19 @@ let operator = ''
 
 switch(operator) {
     case '+':
-        console.log(a1 + b1)
+        console.log(a + b)
         break
     case '-':
-        console.log(a1-b1)
+        console.log(a-b)
         break
     case '':
-        console.log(a1 * b1)
+        console.log(a * b)
         break
     case '/':
-        console.log(a1 / b1)
+        console.log(a / b)
         break
     case '%':
-        console.log(a1 % b1)
+        console.log(a % b)
         break
     default:
         console.log('Invalid operator')
