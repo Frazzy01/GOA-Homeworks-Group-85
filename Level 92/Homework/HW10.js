@@ -1,5 +1,5 @@
-let a1 = 20
-let b1 = 5
+let a = 20
+let b = 5
 let operator = ''
 
 switch(operator) {
