@@ -1,6 +1,6 @@
 let a = 20
 let b = 5
-let operator = ''
+let operator = '*'
 
 switch(operator) {
     case '+':
@@ -9,7 +9,7 @@ switch(operator) {
     case '-':
         console.log(a-b)
         break
-    case '':
+    case '*':
         console.log(a * b)
         break
     case '/':
