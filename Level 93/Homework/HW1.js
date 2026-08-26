@@ -1,0 +1,2 @@
+function calculatePrice(price, quantity) {
+}
