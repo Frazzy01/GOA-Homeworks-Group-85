@@ -1,22 +1,19 @@
-function checkExam(name, score) {
+function checkExam(name, score = 0) {
     switch (true) {
-        case (score >= 90):
-            console.log("name: Excellent")
+        case (score >= 90) && score <=100:
+            console.log(`${name}: Excellent`)
             break
-        case (score >= 75):
+        case (score >= 75) && score <=89:
             console.log("name: Very Good")
             break
-        case (score >=60):
+        case (score >= 60) && score <=89:
             console.log("name: Good")
             break
-        case(score >=50):
+        case(score >= 50) && score <=59:
             console.log("name: Passed")
             break
-        case(score <= 49):
+        case(score >= 0) && score <=49:
             console.log("name: Failed")
-            break
-        default:
-            console.log(0)
             break
     }
 }
