@@ -1,4 +1,4 @@
-function getResult(name, score){
+function getResult(name, score = 0){
     switch(true){
         case(score >= 90):
             console.log("name: Excellent")
