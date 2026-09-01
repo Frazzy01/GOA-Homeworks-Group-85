@@ -1,12 +1,13 @@
-let checkWord = worddddd => {
-    worddddd.toLowerCase()
+let checkWord = word => {
+    word.toLowerCase()  
 
-    if(worddddd.startsWith("a")){
+    if(word.startsWith("a")){
         "Starts with A"
     }else{
         "Does not start with A"
-
     }
+
 }
 
-checkWord("")
+checkWord("asdasdad")
+checkWord("asdasdad")
