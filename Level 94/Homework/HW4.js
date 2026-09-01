@@ -9,7 +9,5 @@ let checkWord = word => {
 
 }
 
-checkWord("asdasdad")
-checkWord("asdasdad")
-
 console.log(checkWord("asdasdad"))
+console.log(checkWord("Dsdasdad"))
