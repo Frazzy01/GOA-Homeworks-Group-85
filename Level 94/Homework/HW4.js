@@ -1,5 +1,5 @@
 let checkWord = word => {
-    word.toLowerCase()  
+    word = word.toLowerCase()
 
     if(word.startsWith("a")){
         "Starts with A"
