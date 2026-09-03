@@ -6,9 +6,9 @@ function school() {
     if (students > 10) {
         let teacher = "Goga";
 
-        console.log(country);
-        console.log(students);
-        console.log(teacher);
+        console.log(country); // global
+        console.log(students); // block
+        console.log(teacher); // block
     }
 }
 
