@@ -1,13 +1,13 @@
-let name = "Goga scope";
+let name = "Goga";
 
 function first() {
     let age = 20;
 
     function second() {
-        let city = "Tbilisi scope";
+        let city = "Tbilisi";
 
         console.log(name);
-        console.log(age + " scope");
+        console.log(age);
         console.log(city);
     }
 
@@ -15,3 +15,5 @@ function first() {
 }
 
 first()
+
+// name global scope age and cita block scope
