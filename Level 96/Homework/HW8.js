@@ -8,3 +8,5 @@ numbers[4] += 5
 numbers[5] *= 2
 numbers[6] += 5
 numbers[7] *= 2
+
+console.log(numbers)
