@@ -4,3 +4,4 @@ scores.push(91, 56)
 scores.pop()
 
 console.log(scores)
+console.log(scores.length)
