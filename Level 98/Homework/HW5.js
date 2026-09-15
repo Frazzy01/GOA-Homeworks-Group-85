@@ -1,5 +1,3 @@
-let numberjumber = [15, 25, 35, 45, 55, 65]
-
 function finalList(numbers) {
     if (Array.isArray(numbers) == false) {
         return "Not an array"
@@ -15,4 +13,4 @@ function finalList(numbers) {
     }
 }
 
-console.log(finalList(numberjumber))
+console.log(finalList([15, 25, 35, 45, 55, 65]))
