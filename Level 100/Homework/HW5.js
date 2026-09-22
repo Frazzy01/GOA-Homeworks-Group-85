@@ -23,4 +23,4 @@ function analyzeNumbers(numberjumber) {
     console.log(`${oddcount} odd`)
 }
 
-console.log(analyzeNumbers(numberjumber))
+analyzeNumbers(numberjumber)
