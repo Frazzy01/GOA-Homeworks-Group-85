@@ -9,7 +9,7 @@ console.log(third)
 
 if(first === second === third){
     console.log("JACKPOT!!!")
-}else if(first === second || second === first || second === third || third === second || third === first){
+}else if(first === second || first === third || second === first || second === third || third === second || third === first){
     console.log("ორი ერთნაირი რიცხვი!")
 }else{
     console.log("სამივე განსხვავებულია")
