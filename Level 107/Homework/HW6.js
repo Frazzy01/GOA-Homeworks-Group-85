@@ -9,7 +9,7 @@ let filternd = map.filter(item => item > 80)
 let mapnd = filternd.map((item , index) => item - index)
 let filterrd = mapnd.filter(item => item % 2 != 0)
 let radius = filterrd.reduce((acc , curr) => { return acc + curr}, 0 )
-let radiusnd = scores.reduce((acc, curr) => {return curr / acc}, 0)
+
 let index = scores.findIndex(item => item > 90)
 let some = scores.some(item => item < 90)
 let every = scores.every(item => item > 70)
