@@ -11,3 +11,14 @@
 // let radius = filterrd.reduce((acc , curr) => { return acc + curr}, 0 )
 // let radiusnd = filterrd.reduce((acc , curr) => { return curr / acc}, 0 )
 // let radiusrd = filterrd.reduce((acc , curr) => { return curr > acc}, 0) 
+// let secondrad = mapnd.reduce((acc, curr) => {
+//     if(curr > acc){
+//         return curr
+//     }else{
+//         return acc
+//     }
+// }, 0)
+// let index = numbers.findIndex(item => item < 100 && item % 2 == 0)
+// let some = numbers.some(item => item > 140)
+// let every = numbers.every(item => item % 2 == 0 && item > 100)
+
