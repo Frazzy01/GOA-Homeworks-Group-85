@@ -10,7 +10,7 @@ let map = filter.map(item => item += 69)
 let radius = map.reduce((acc , curr) => {return acc + curr}, 0 )
 let some = number.some(num => num > 100)
 let every = number.every(num => num > 50)
-let index = number.findIndex(num => num > 999)
+let index = number.findIndex(num => num > 998)
 
 console.log(filter)
 console.log(map)
