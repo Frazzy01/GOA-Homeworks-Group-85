@@ -145,6 +145,6 @@ delete company.headquarters.address.building.departments.firstFloor.employees
 delete company.headquarters.address.building.departments.fifthFloor.manager.age
 delete company.headquarters.address.building.departments.fifthFloor.manager.contact.phone
 delete company.projects.project1.team.technology.database
+delete company.projects.project2.team.members
 delete company.projects.project1.budget
 delete company.projects.project1.team.technology.backend
-delete company.projects.project2.team.members
