@@ -36,6 +36,9 @@ for (let i in employees) {
     sashualo = Math.round(sum / keycount)
 }
 
+let values = Object.values(employees)
+let min = values.reduce((a,b) => a < b ? a : b)
 
+console.log(min)
 console.log("RICHEST", maxname)
 console.log(sashualo)
