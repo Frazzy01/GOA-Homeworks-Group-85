@@ -12,12 +12,12 @@ let count15000 = 0
 let maxname = ""
 let max = 0
 
-for(let i in company){
+for (let i in company) {
     console.log(i, "-->", company[i])
 
     sum += company[i]
 
-    if(company[i] >= 15000){
+    if (company[i] >= 15000) {
         count15000++
     }
 
@@ -27,4 +27,8 @@ for(let i in company){
     }
 }
 
+let values = Object.values(company)
+let min = values.reduce((a,b) => a < b ? a : b)
+
+console.log(min)
 console.log("RICHEST", maxname, max)
