@@ -30,7 +30,7 @@ for (let i in user) {
     }
 }
 
-console.log(min)
+
 console.log(countlength)
 console.log(numbertype)
 console.log(booleantype)
