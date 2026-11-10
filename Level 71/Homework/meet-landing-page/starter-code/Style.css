@@ -23,33 +23,30 @@ body {
 
 .container {
     width: 100%;
-    position: relative; /* Дает точку отсчета для absolute */
+    position: relative;
     display: flex;
-    justify-content: center; /* Центрирует текстовый блок .main строго посередине */
+    justify-content: center;
     align-items: center;
-    min-height: 360px; /* Высота, чтобы блоки не схлопывались в ноль */
+    min-height: 360px;
 }
 
-/* 2. Позиционируем только ОБЕРТКИ картинок */
 .icon {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%); /* Идеально ровняет по вертикали */
+    transform: translateY(-50%);
 }
 
-/* Сдвиг от краев контейнера (в Figma здесь обычно отрицательный отступ) */
 .left {
-    left: -40px; /* Сдвигает левый блок за левый край */
+    left: -40px;
 }
 
 .right {
-    right: -40px; /* Сдвигает правый блок за правый край */
+    right: -40px;
 }
 
-/* 3. Очищаем саму картинку — убираем absolute, фиксируем размер */
 .icon img {
     display: block;
-    max-width: none; /* Не дает флексу сжимать картинку, она сохранит размер из Figma */
+    max-width: none;
     height: auto;
 }
 
