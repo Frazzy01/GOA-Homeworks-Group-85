@@ -159,6 +159,12 @@ body {
     width: 150px;
 }
 
+.platforms{
+    display: flex;
+    gap: 50px;
+    height: 100%;
+}
+
 
 /* ------------------------------------ media */
 
