@@ -31,3 +31,18 @@ function createEmployee(name, position, salary, experience){
 
     }
 }
+
+
+let player1 = createEmployee("Jimsheri", "webdev", 10000, 10)
+let player2 = createEmployee("Nugzari", "gamedev", 8000, 5)
+let player3 = createEmployee("Tato", "webdev", 50000, 15)
+
+player1.increaseSalary(10000)
+player2.increaseSalary(2000)
+player3.increaseSalary(50000)
+player1.changePosition("gamedev")
+player2.changePosition("webdev")
+player3.changePosition(null)
+player1.getbonus()
+player2.getbonus()
+player3.getbonus()
