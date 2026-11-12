@@ -8,7 +8,7 @@ function createEmployee(name, position, salary, experience){
             if(experience > 5){
                 salary += amount
             }else{
-                console.log("Not enough experience!".)
+                console.log("Not enough experience!")
             }
         },
 
