@@ -12,17 +12,19 @@ function createStudent(name, age, grades){
         getAvarage(){
             let sum = grades.reduce((acc, grade) => acc + grade, 0)
             let avarage = sum / grades.length
-            console.log(avarage)
+            return avarage
         },
 
         getResult(){
-            if(grades > 90){
+            let result = this.getAvarage()
+
+            if(result > 90){
                 console.log("Excellent")
-            }else if(grades > 70){
+            }else if(result > 70){
                 console.log("Good")
-            }else if(grades > 50){
+            }else if(result > 50){
                 console.log("Average")
-            }else if(grades < 50){
+            }else if(result < 50){
                 console.log("Failed")
             }
         },
