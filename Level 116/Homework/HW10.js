@@ -7,9 +7,24 @@ let compan = {
     country: "Georgia",
     isActive: true
 };
-let {name : companyName, employees : employeeCount, income : totalIncome, expenses : totalExpenses, founded : foundationYear, country : nation, isActive : activity} = compan
-console.log('profit:', totalIncome - totalExpenses)
-console.log(totalIncome - totalExpenses > 500000 ? 'good profit' : 'bad profit')
-console.log(foundationYear < 2020 ? 'old company' : 'new company')
-console.log(activity ? 'active' : 'inactive')
-console.log('income and expense:', totalIncome, totalExpenses)
+let { name: c, employees: e, income: t, expenses: ex, founded: f, country: ca, isActive: ac } = compan
+console.log(totalIncome - totalExpenses)
+
+if (t - ex > 500000) {
+    console.log("VERI GOOD")
+} else {
+    console.log("VERI BAD BRO")
+}
+
+if (f < 2020) {
+    console.log("old company")
+} else {
+    console.log("new company")
+}
+
+if(ac){
+    console.log("active")
+}else{
+    console.log("no active")
+}
+console.log(t, ex)
