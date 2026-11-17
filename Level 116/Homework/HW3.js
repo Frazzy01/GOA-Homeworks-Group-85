@@ -1,6 +1,6 @@
 let exam = ["Nika", 85, "Mathematics", 90, "Physics", 78]
 
-let [n, , , , , ,] = exam
+let [n] = exam
 
 console.log(n)
 
@@ -8,11 +8,11 @@ let [, , m, ni, , ,] = exam
 
 console.log(m, ni,)
 
-let [, , , , p, se,] = exam
+let [, , , , p, se] = exam
 
-console.log(p, se,)
+console.log(p, se)
 
-let [, number, , jumber, , pumber,] = exam
+let [, number, , jumber, , pumber] = exam
 let num = [number, jumber, pumber]
 
 let sum = num.reduce((total, current) => total + current, 0)
